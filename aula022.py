@@ -10,7 +10,7 @@ or - Qualquer condição verdadeira avalia toda a expressão como verdadeira.
 
 Também existe o tipo "None" que é usado pra representar um não valor.
 """
-'''entrada = input('[E]entrar [S]air: ')
+entrada = input('[E]entrar [S]air: ')
 senha_digitada = input('Senha: ')
 
 senha_permitida = '123456'
@@ -18,7 +18,7 @@ senha_permitida = '123456'
 if (entrada == 'E' or entrada == 'e') and senha_digitada == senha_permitida:
     print('Entrar')
 else:
-    print('Sair')'''
+    print('Sair')
 
 # Avaliação de curto circuito
 senha = input('Senha: ') or 'Sem senha' 
